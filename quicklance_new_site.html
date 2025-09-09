@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiclance - Freelancing Made Simple</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9ff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 40px 10%;
+    }
+    h2 {
+      color: #444;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 900px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+    .card h2 {
+      color: #2575fc;
+      text-align: left;
+    }
+    .card h3 {
+      color: #444;
+      margin-top: 15px;
+    }
+    .card ul {
+      margin: 10px 0 0 20px;
+      line-height: 1.6;
+    }
+    .highlight {
+      background: #eef4ff;
+      border-left: 5px solid #2575fc;
+      padding: 12px;
+      margin: 15px 0;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .how-it-works {
+      background: #eef1ff;
+      border-radius: 12px;
+      padding: 30px;
+      margin-top: 30px;
+    }
+    .steps {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .step {
+      flex: 1 1 250px;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .step h3 {
+      margin-top: 0;
+      color: #2575fc;
+    }
+    .monetization {
+      background: #fff7e6;
+      border-left: 6px solid #ff9800;
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 8px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .monetization ul {
+      margin: 10px 0 0 20px;
+    }
+    .founder {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .founder-card {
+      display: inline-block;
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      max-width: 400px;
+    }
+    .founder-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .founder-card h3 {
+      margin: 10px 0 5px;
+      color: #2575fc;
+    }
+    .founder-card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Quiclance</h1>
+    <p>Quick Work. Real Connections. Instant Results</p>
+    <p>Connecting People with Skilled Freelancers Instantly</p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>Problem We Are Solving</h2>
+      <div class="highlight">Finding skilled workers quickly for urgent tasks is difficult, while freelancers struggle to find immediate work.</div>
+      <ul>
+        <li>Urgent or short-term jobs often remain unfulfilled.</li>
+        <li>Freelancers lack real-time opportunities.</li>
+        <li>Current platforms are slow, costly, or not localized.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Our Solution – Quiclance App</h2>
+      <p>Quick Work. Real Connections. Instant Results</p>
+      <p>Quiclance instantly connects job posters with freelancers based on skills and location. No middlemen, no delays – just real-time results.</p>
+      <ul>
+        <li>Instant job posting & direct chat</li>
+        <li>Nearby freelancers notified immediately</li>
+        <li>One-tap job acceptance</li>
+        <li>Live status & task updates</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Product Overview</h2>
+      <h3>Key Features</h3>
+      <ul>
+        <li>Quick Job Posting</li>
+        <li>Location-Based Matching</li>
+        <li>Direct Chat System</li>
+        <li>One-Tap Acceptance</li>
+        <li>Real-Time Notifications</li>
+      </ul>
+      <h3>Benefits</h3>
+      <ul>
+        <li>Fast, local hiring</li>
+        <li>More visibility for freelancers</li>
+        <li>Time & cost-efficient</li>
+        <li>Applicable across multiple sectors</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>App Interface</h2>
+    <div class="gallery">
+      <img src="images/app6.jpg" alt="Post Work">
+      <img src="images/app5.jpg" alt="Find Work">
+      <img src="images/app2.jpg" alt="Apply for Work">
+      <img src="images/app4.jpg" alt="Menu Options">
+      <img src="images/app1.jpg" alt="Dashboard">
+      <img src="images/app3.jpg" alt="Profile Page">
+    </div>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <div class="how-it-works">
+      <div class="steps">
+        <div class="step">
+          <h3>1. Post Work</h3>
+          <p>Clients can easily post jobs by selecting category, budget, and deadline.</p>
+        </div>
+        <div class="step">
+          <h3>2. Find Work</h3>
+          <p>Freelancers browse available jobs and apply instantly with one click.</p>
+        </div>
+        <div class="step">
+          <h3>3. Applications</h3>
+          <p>Employers can approve or reject applications and download lists easily.</p>
+        </div>
+        <div class="step">
+          <h3>4. Profile</h3>
+          <p>Users can maintain profiles, track applications, and manage work history.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How We Make Money</h2>
+    <div class="monetization">
+      <p>Quiclance can be monetized through:</p>
+      <ul>
+        <li><b>Premium Job Posts:</b> Employers pay to highlight their job listings.</li>
+        <li><b>Freelancer Subscriptions:</b> Monthly subscription for unlimited applications.</li>
+        <li><b>Transaction Fee:</b> Small service fee on successful job contracts.</li>
+        <li><b>Ads:</b> Display relevant ads for tools & services freelancers need.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="founder">
+    <h2>Founder</h2>
+    <div class="founder-card">
+      <h3>Ankur Matariya</h3>
+      <p>
+        Linux BSP Engineer & Qualcomm Consultant with expertise in embedded systems, drivers, and 
+        high-performance computing. Passionate about building solutions that simplify freelancing 
+        and connect opportunities instantly.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Quiclance. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
